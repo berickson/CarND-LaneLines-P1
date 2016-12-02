@@ -19,6 +19,9 @@ If you already have Anaconda for Python 2 installed, you can create a separate e
 
 `>  source activate yourNewEnvironment`
 
+**Step 1a:** Install pango - You must execute this stop on Ubunto or opencv will fail to import in python
+> conda install pango
+
 **Step 2:** Installing OpenCV
 
 Once you have Anaconda installed, first double check you are in your Python 3 environment:
